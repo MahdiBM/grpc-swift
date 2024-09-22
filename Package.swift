@@ -47,7 +47,7 @@ let dependencies: [Package.Dependency] = [
 ]
 
 let defaultSwiftSettings: [SwiftSetting] = [
-  .swiftLanguageMode(.v6),
+  .swiftLanguageVersion(.v6),
   .enableUpcomingFeature("ExistentialAny"),
   .enableUpcomingFeature("InternalImportsByDefault")
 ]
